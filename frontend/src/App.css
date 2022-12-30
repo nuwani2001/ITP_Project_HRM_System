@@ -1,0 +1,189 @@
+.mainBodyView{
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+ /* .container {
+	width: 100vw;
+	min-height: 100vh;
+	background-color: #2941ab;  
+}   */
+
+.btnView{
+	margin-left: 10px;
+}
+
+.formCls{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: fit-content;
+}
+
+.tbl{
+  margin: auto;
+  margin-top: 30px;
+  width:80%;
+  padding: 10px;
+}
+
+.tblEmp{
+  margin-top: 120px;
+  width:700px;
+  border: 2px solid black;
+}
+
+.btnDim{
+  height: 80px;
+  width: 200px;
+  background-color: #126180;
+}
+
+.searchBar{
+	margin-left: 72%;
+	margin-top: 0px;
+	justify-content:right;
+}
+
+.searchBarSkill{
+	margin-left: 980px;
+	margin-top: 0px;
+	justify-content:right;
+}
+
+
+
+.btnHeader{
+	margin-top: 20px;
+	margin-bottom: 40px;
+  width: 80vw;
+}
+
+.cen{
+  margin-left: 0%;
+  width: 100%;
+}
+
+table thead tr th{
+  font-size: 20px;
+}
+
+.updelForm{
+  margin-top: 10%;
+  margin-left: 200%;
+  width: 300px;
+}
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.imgdisplay{
+  width: 200px;
+  height: 200px;
+}
+
+.dateSelector{
+	display: inline-flex;
+	margin-top: 2%;
+	margin-left: 5%;
+	width: 25%;
+}
+
+.generateBtn{
+	margin-left: 5px;
+}
+
+.Attdetails{
+	margin-left: 200%;
+	width: 200px;
+}
+
+.formDim{
+	display: block;
+	justify-content: center;
+	width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;  
+}
+
+.fm{
+	margin-left: 35vw;
+}
+
+.selectMenu{
+  padding: 10px;
+  margin-left: 11%;
+}
+
+.dropdown{
+  border: 2px solid black;
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.topBackBtn{
+  margin-left: 5%;
+}
+
+.bottomBackBtn{
+  margin-top: 10px;
+  width: 75px;
+}
+
+.attDemoBtn{
+  /* margin-left: 20%; */
+  margin-top: 10px;
+  float: right;
+}
+
+.colorChange[data-hr = "Inactive"]:after{
+  content: "Active";
+  color: red;
+}
+.colorChange[data-hr = "Active"]:after{
+  content: "Inactive";
+  color: black;
+}
